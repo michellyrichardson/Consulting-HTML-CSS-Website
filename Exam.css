@@ -1,0 +1,145 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 950px;
+    margin: auto;
+    height: 993px;
+    background-color: #062134;
+}
+
+#header{
+    min-height: 70px;
+    background-color: #062134;
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+h1{
+    color:white;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin:15px;
+    margin-left: 30px;
+}
+span{
+    color:#198ED7;
+}
+ul{
+    list-style: none;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    padding: 0 35px;
+    
+}
+li {
+    display:inline;
+    padding: 10px;
+    margin: 11px;
+    margin-left: 10px;
+    padding-right: 5px
+   
+   
+}
+#content{
+    background-color:white;
+    width:915px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+img{
+    width: 900px;
+}
+
+#maincontent{
+    display:flex;
+    width: 910px;
+}
+
+.subcontents{
+    background-color: #1468A8;
+    color: white;
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 9px;  
+}
+.imgtext{
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+h3.bottom{
+    color: #062134;
+    
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+a{
+    color:white;
+    border-radius: 5px;
+    padding:0.5em 1.1em;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-right: 150px;
+    
+}
+.moreinfo{
+    width: 300px;
+    display:inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    vertical-align: baseline;
+}
+p.bottom{
+    color:#062134;
+    text-align: left;
+}
+p.test{
+    color: #062134;
+    font-size: 14px;
+    font-style: italic;
+    background-color: #DAEDFF;
+    padding: 32px
+}
+#footer{
+    height: 40px;
+    background-color: #DAEDFF;
+    width: 935px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 1px;
+}
+li.footer {
+    display:inline;
+    height: 1px;
+    margin: 2px;
+    margin-left: 20px;
+    padding-left: 80px;
+    padding-top:10px;
+    
+}
+span.home{
+    color: #A7CFF1;
+}
